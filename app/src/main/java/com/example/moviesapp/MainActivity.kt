@@ -14,6 +14,6 @@ class MainActivity : ComponentActivity() {
             MoviesAppTheme {
 
             }
-            }
         }
     }
+}
