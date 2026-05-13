@@ -1,7 +1,7 @@
-package com.example.moviesapp.remote
+package com.example.moviesapp.data.remote
 
 import com.example.moviesapp.BuildConfig
-import com.example.moviesapp.remote.respond.MovieDto
+import com.example.moviesapp.data.remote.respond.MovieDto
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

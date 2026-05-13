@@ -1,4 +1,4 @@
-package com.example.moviesapp.remote.respond
+package com.example.moviesapp.data.remote.respond
 
 data class MovieDto(
     val adult: Boolean?,
