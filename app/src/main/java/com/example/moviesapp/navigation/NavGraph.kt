@@ -7,6 +7,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.example.moviesapp.ui.screens.HomeScreen
+import com.example.moviesapp.ui.screens.details.DetailsScreen
 import com.example.moviesapp.util.Screens
 
 @Composable
@@ -32,7 +33,7 @@ fun NavGraph (
                 }
             )
         ) {
-
+            DetailsScreen()
         }
     }
 }
